@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yukai.myapplication.MainActivity">
+
+    <com.example.yukai.myapplication.LineView
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="add_view:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="rm_divider:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/divider_btn_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="d1" />
+
+        <Button
+            android:id="@+id/divider_btn_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="d2" />
+
+        <Button
+            android:id="@+id/divider_btn_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="d3" />
+
+        <Button
+            android:id="@+id/divider_btn_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="d4" />
+
+        <Button
+            android:id="@+id/divider_btn_5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="d5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="rm_view:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/remove_btn_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="r1" />
+
+        <Button
+            android:id="@+id/remove_btn_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="r2" />
+
+        <Button
+            android:id="@+id/remove_btn_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="r3" />
+
+        <Button
+            android:id="@+id/remove_btn_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="r4" />
+
+        <Button
+            android:id="@+id/remove_btn_5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="r5" />
+    </LinearLayout>
+
+</LinearLayout>
